@@ -1,0 +1,36 @@
+<h1>
+Visual Recognition
+</
+h1>
+<!
+--
+parse all images 
+--
+>
+{{#result.images}}
+<p>Analyzed image: {{source_url}}<br/><img id="alchemy_image" src="{{source_url}}" height="200"/></p>
+{{^faces}}
+<P>No Face detected</P>
+{{/faces}}
+<table border='1'>
+<thead><tr><th>Age Range</th><th>Conf
+idence</th><th>Gender</th><th>Confidence</th><th>Name</th></tr></thead>
+<!
+--
+parse all faces 
+--
+>
+{{#faces}}
+<tr>
+<td><b>{{age.min}} 
+-
+{{age.max}}</b></td><td><i>{{age.score}}</i></td>
+<td>{{gender.gender}}</td><td>{{gender.score}}</td>
+{{#identity}}<td>{{i
+dentity.name}} ({{identity.score}})</td>{{/identity}}
+</tr>{{/faces}}
+</table>
+{{/result.images}}
+<form action="{{req._parsedUrl.pathname}}">
+<br><input type="submit" value="Try again or go back to the home page"/>
+</form>
