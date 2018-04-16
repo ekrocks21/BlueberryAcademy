@@ -1,4 +1,6 @@
+<img src="http://exploreibm.com/static/img/exploreIBM-logo.png" height='50'/>
 <h1>exploreIBM</h1>
+<H2>Watson Visual Recognition</H2>
 
 <!-- parse all images -->
 {{#result.images}}
@@ -21,5 +23,5 @@
 </table>
 {{/result.images}}
 <form action="{{req._parsedUrl.pathname}}">
-<br><input type="submit" value="Try again or go back to the home page"/>
+<br><input type="submit" value="Home"/>
 </form>
