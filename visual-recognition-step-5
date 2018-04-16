@@ -1,29 +1,11 @@
-<h1>Welcome to my Face Detection app</h1>
-<H2>Recognize 
-anyone?</H2>
-<form 
-action="{{req._parsedUrl.pathname}}">
-<img src="http://asbarez.com/wp
--
-content/uploads/2016/02/ibmwatson.jpg" height='200'/>
-<img src="http://www.awaken.com/wp
--
-content/uploads/2015/05/forbes.jpg" height='200'/
->
-<img 
-src="https://www.commerce.gov/sites/commerce.gov/files/styles/scale_250w/public/media/images/profile/elizabethholmes.jpg?it
-ok=DHmvdC
--
-1" height='200'/>
-<br/>Right
--
-click one of the above images and select Copy image location and paste the 
-URL in the box below.<br>Do 
-an image search for faces, try multiple faces. After you click on an ima
-ge, to the right notice:
-"View image" click that to 
-get the URL.<br/>
-<br>Image URL: <input type="text" name="imageurl"/>
-<input type="submit" value
-="Analyze"/>
-</form>
+<h1>exploreIBM</h1>
+<H2>Watson Visual Recognition</H2>
+<form  action="{{req._parsedUrl.pathname}}">
+    <img src="https://www.grammy.com/sites/com/files/styles/image_landscape_hero/public/beyonce-hero-487073444_copy.jpg?itok=RTg0LU3d" height='200'/>
+    <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/22529021_10155739363543766_6838071202177424213_o.jpg?_nc_cat=0&oh=e9287ea0cf9755d63d1e313be2065c76&oe=5B6A9689" height='200'/>
+    <img src="https://www.biography.com/.image/t_share/MTE4MDAzNDEwNzg5ODI4MTEw/barack-obama-12782369-1-402.jpg" height='200'/>
+     <img src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwilg9-6nL_aAhURmeAKHadSAW8QjRx6BAgAEAU&url=http%3A%2F%2Fm.mlb.com%2Fplayer%2F116539%2Fderek-jeter&psig=AOvVaw3EckxZjxiIQjHzKvKcO3gA&ust=1523982790636701" height='200'/>
+    <br>
+    <p1>Image URL: </p1><input type="text" name="imageurl"/>
+    <input type="submit" value="Analyze"/>
+    </form>
