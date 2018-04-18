@@ -2,11 +2,14 @@
 <h1>exploreIBM</h1>
 <H2>Watson Visual Recognition</H2>
 <form  action="{{req._parsedUrl.pathname}}">
-    <img src="https://www.grammy.com/sites/com/files/styles/image_landscape_hero/public/beyonce-hero-487073444_copy.jpg?itok=RTg0LU3d" height='200'/>
+    <img src="http://asbarez.com/wp-content/uploads/2016/02/ibmwatson.jpg" height='200'/>
     <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/22529021_10155739363543766_6838071202177424213_o.jpg?_nc_cat=0&oh=e9287ea0cf9755d63d1e313be2065c76&oe=5B6A9689" height='200'/>
     <img src="https://www.biography.com/.image/t_share/MTE4MDAzNDEwNzg5ODI4MTEw/barack-obama-12782369-1-402.jpg" height='200'/>
     <img src="http://mlb.mlb.com/mlb/images/players/head_shot/116539.jpg" height='200'/>
     <img src="http://static.oprah.com/images/o2/201308-omag-what-know-949x534.jpg" height='200'/>
+    <img src="https://www.grammy.com/sites/com/files/styles/image_landscape_hero/public/beyonce-hero-487073444_copy.jpg?itok=RTg0LU3d" height='200'/>
+    <img src="https://i.ytimg.com/vi/NX0iaeMzHyI/maxresdefault.jpg" height='200'/>
+    <img src="https://i.amz.mshcdn.com/QC9yDgcVF87ZQtpukIolk2B0Qkc=/950x534/filters:quality(90)/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fcard%2Fimage%2F587401%2Feefe1584-6a4d-41c5-a826-8bad15a2c282.jpg" height='200'/>
    <br>
    <br>
     <br>
